@@ -101,6 +101,10 @@ const { Content } = await render(projectDescription);
     height: auto;
     margin-right: 1.5rem;
     margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   @media (max-width: 1020px) {
@@ -132,6 +136,6 @@ const { Content } = await render(projectDescription);
   }
 
   .project-description :global(ul) {
-    overflow: hidden;
+    overflow: auto;
   }
 </style>
